@@ -18,7 +18,9 @@ Starting MongoDB Server
 docker-compose up
 ```
 
-## Content
+Running:
+```
+python3 <<file_name.py>>
+```
 
-1_connection.py: Initial connection with mongodb cluster.
-2_insert_single.py: Initial data insertion into mongodb. 
+Or play "Run and Debug" on VSCode.
