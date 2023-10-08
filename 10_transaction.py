@@ -19,17 +19,19 @@ new_accounts = [
         "account_id": "MDB574189300",
         "account_type": "checking",
         "balance": 4690.87,
-        "transfers_complete": [ "TR488315128", "TR401663822"]
-    }, 
+        "transfers_complete": ["TR488315128", "TR401663822"]
+    },
     {
         "account_holder": "mARCUS jORGENSEN",
         "account_id": "MDB343652528",
         "account_type": "checking",
         "balance": 2522.14,
-        "transfers_complete": [ "TR488315128", "TR655897500"]
+        "transfers_complete": ["TR488315128", "TR655897500"]
     }]
 
 # Step 1: Define the callback that specifies the sequence of operations to perform inside the transactions.
+
+
 def callback(
     session,
     transfer_id=None,

@@ -24,7 +24,8 @@ accounts_collection = db.accounts
 conversion_rate_usd_to_gbp = 1.3
 
 # Select checking accounts with balances of more than $1,500.
-select_accounts = {"$match": {"account_type": "checking", "balance": {"$gt": 1500}}}
+select_accounts = {"$match": {
+    "account_type": "checking", "balance": {"$gt": 1500}}}
 
 # Organize documents in order from highest balance to lowest.
 organize_by_original_balance = {"$sort": {"balance": -1}}
